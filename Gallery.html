@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width intial-scale=1.0">
+  <title> Guns n' Roses - Home</title>
+  <link rel="stylesheet" href="styles/style(gallery).css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="image/Untitled-1.png" width="125px">
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <li> <a href="index.html"> HOME </a></li>
+            <li> <a href="News.html"> NEWS </a></li>
+            <li> <a href="Gallery.html"> GALLERY</a></li>
+            <li> <a href="About.html"> ABOUT</a></li>
+            <li> <a href="Store.html"> STORE </a></li>
+            <li> <a href="Tour.html"> TOUR</a></li>
+            <li> <a href="Account.html"> LOGIN </a></li>
+          </ul>
+        </nav>
+        <a href="Cart.html"><img src="image/shopping-cart.png" width="30px"></a>
+        <img src="image/menu-btn.png" class="menu-btn" 
+        onclick="menutoggle()">
+      </div>
+      
+      </div>
+    </div>
+  
+  
+
+  <!------photo------>
+  <div class="photo">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <h2 style="color: white;">Salt Lake City - 10/29/19</h2>
+          <img src="image/gallery.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery2.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery3.jpg">
+        </div>
+        
+        <div class="col-3">
+          <h2 style="color: white;">New Orleans - 10/25/19</h2>
+          <img src="image/gallery4.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery5.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery6.jpg">
+        </div>
+        
+        <div class="col-3">
+          <h2 style="color: white;">Oklahoma City - 10/23/19</h2>
+          <img src="image/gallery7.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery8.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery9.jpg">
+        </div>
+
+        <div class="col-3">
+          <h2 style="color: white;">Tijuana - 10/20/19</h2>
+          <img src="image/gallery10.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery11.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery12.jpg">
+        </div>
+        
+        
+      </div>
+    </div>
+</div>
+
+    
+    <!--------footer----->
+    <div class="footer">
+      <hr><br>
+      <a href = "https://twitter.com/gunsnroses?s=20" ><img src ="image/twitter.png"></a>
+      <a href = "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC?si=3hVQ4pa0QAWKvihTfYS7HQ" ><img src ="image/spotify.png"></a>
+      <a href = "https://www.youtube.com/c/gunsnroses" ><img src ="image/youtube(1).png"></a>
+      <a href = "https://www.instagram.com/gunsnroses/" ><img src ="image/instagram.png"></a>
+      
+      <p>Copyright © 2023 Guns N' Roses Help  Newsletter  Terms of Use  Privacy Policy  Do Not Sell or Share My Personal Information</p>
+      <p>Guns N' Roses is managed by Team Brazil </p>
+      <p>Armand Butts Crump III and Tommy Mark, forever in our hearts. </p>
+    </div>
+
+<!--------toggle menu---->
+<script>
+  var menuItems = document.getElementById("menuItems");
+
+  menuItems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(menuItems.style.maxHeight == "0px")
+    {
+      menuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      menuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+
+</html>

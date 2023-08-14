@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width intial-scale=1.0">
+    <title> Guns n' Roses - Store</title>
+    <link rel="stylesheet" href="styles/style(store).css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/Untitled-1.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li> <a href="index.html"> HOME </a></li>
+                    <li> <a href="News.html"> NEWS </a></li>
+                    <li> <a href="Gallery.html"> GALLERY</a></li>
+                    <li> <a href="About.html"> ABOUT</a></li>
+                    <li> <a href="Store.html"> STORE </a></li>
+                    <li> <a href="Tour.html"> TOUR</a></li>
+                    <li> <a href="Account.html"> LOGIN </a></li>
+                </ul>
+            </nav>
+            <img src="image/shopping-cart.png" width="30px">
+            <img src="image/menu-btn.png" class="menu-btn" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-------------single product details------>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="image/itemImage2.png" width="100%">
+            </div>
+            <div class="col-2">
+                <p>Home / T-shirt</p>
+                <h1>Appetite For Destruction Hat</h1>
+                <h4>$35.00</h4>
+                
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+
+                <h3>Product Details</h3>
+                <br>
+                <p>Black dad hat with adjustable strap and Appetite for Destruction text embroidered on the front and
+                    "GN'R!" text in purple embroidery on the back </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------Tittle------->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="Store.html" style="color: black;">View More</a>
+        </div>
+    </div>
+
+    <!-------Product------->
+    <div class="small-container">
+        <div class="row">
+
+            <div class="col-4">
+                <img src="image/itemImage9.png">
+                <h4>Vinyl Gold 5": Guns N' Roses - Duff</h4>
+                <p>$12.00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/itemImage10.png">
+                <h4>Cards Maroon Pullover Hoodie</h4>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/itemImage11.png">
+                <h4>November Rain Black Hoodie</h4>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/itemImage12.png">
+                <h4>1991 Skull Black Tour T-Shirt</h4>
+                <p>$30.00</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------footer----->
+    <div class="footer">
+        <hr><br>
+        <a href="https://twitter.com/gunsnroses?s=20"><img src="image/twitter.png"></a>
+        <a href="https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC?si=3hVQ4pa0QAWKvihTfYS7HQ"><img
+                src="image/spotify.png"></a>
+        <a href="https://www.youtube.com/c/gunsnroses"><img src="image/youtube(1).png"></a>
+        <a href="https://www.instagram.com/gunsnroses/"><img src="image/instagram.png"></a>
+
+        <p>Copyright © 2023 Guns N' Roses Help Newsletter Terms of Use Privacy Policy Do Not Sell or Share My Personal
+            Information</p>
+        <p>Guns N' Roses is managed by Team Brazil </p>
+        <p>Armand Butts Crump III and Tommy Mark, forever in our hearts. </p>
+    </div>
+
+
+
+    <!--------toggle menu---->
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

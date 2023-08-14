@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width intial-scale=1.0">
+    <title> Guns n' Roses - Home</title>
+    <link rel="stylesheet" href="styles/style(news).css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/Untitled-1.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li> <a href="index.html"> HOME </a></li>
+                        <li> <a href="News.html"> NEWS </a></li>
+                        <li> <a href="Gallery.html"> GALLERY</a></li>
+                        <li> <a href="About.html"> ABOUT</a></li>
+                        <li> <a href="Store.html"> STORE </a></li>
+                        <li> <a href="Tour.html"> TOUR</a></li>
+                        <li> <a href="Account.html"> LOGIN </a></li>
+                    </ul>
+                </nav>
+                <a href="Cart.html"><img src="image/shopping-cart.png" width="30px"></a>
+                <img src="image/menu-btn.png" class="menu-btn" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!---news----->
+
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-5">
+                <img src="image/newImage.jpg">
+                <h4>New Guns N' Roses Shows in Pittsburgh & Seattle</h4>
+                <p style="color: red;">May 30, 2023 </p><br>
+                <p>New Shows Added:<br> 18 August PNC Park Pittsburgh, PA <br>14 October Climate Pledge Arena. Seattle,
+                    WA<br>
+                    Pittsburgh is On Sale Now!Nightrain presale for Seattle will take place on the 6/6 @ 10 am local
+                    time.<br><br>
+                    GET ON THE NIGHTRAIN FOR THE FIRST SHOT AT TICKETS
+                    Active NIGHTRAIN members will see their UNIQUE presale code displayed on the TOUR page after logging
+                    in.
+                </p>
+            </div>
+            <div class="col-5">
+                <img src="image/newImage2.jpg">
+                <h4>GUNS N' ROSES Tour Headed to Atlanta, GA for Music Midtown</h4>
+                <p style="color: red;">May 16, 2023 </p><br>
+                <p>
+
+                    Guns N' Roses return to the road on a massive 2023 World Tour produced by Live Nation, headlining
+                    stadiums, festivals and arenas throughout the summer and fall.<br>New Show Added:<br>Sept. 17 Music
+                    Midtown
+                    - Piedmont Park Atlanta, GAThere will not be a Nightrain Presale for this festival date.All fans,
+                    however, can go to the the Music Midtown site now to request a presale code. Festival presale for
+                    Music Midtown will take place on the May 18th @ 10 am local time.
+                </p>
+            </div>
+            <div class="col-5">
+                <img src="image/newImage3.jpg">
+                <h4>GUNS N' ROSES to Headline Power Trip in Indio, CA!</h4>
+                <p style="color: red;">Mar 30, 2023 </p><br>
+                <p>
+
+                    A massive wall of sound will emerge in the desert this fall at the world's greatest live music
+                    destination Empire Polo Club in Indio, CA with the arrival of POWER TRIP. It's a three-day historic
+                    event set for October 6, 7 and 8 that will bring together six iconic bands that define loud and
+                    powerful music:<br>Guns N' Roses and Iron Maiden (Friday, October 6), AC/DC and Ozzy Osbourne (Saturday,
+                    October 7) and Metallica and Tool (Sunday, October 8).
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------footer----->
+    <div class="footer">
+        <hr><br>
+        <a href="https://twitter.com/gunsnroses?s=20"><img src="image/twitter.png"></a>
+        <a href="https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC?si=3hVQ4pa0QAWKvihTfYS7HQ"><img
+                src="image/spotify.png"></a>
+        <a href="https://www.youtube.com/c/gunsnroses"><img src="image/youtube(1).png"></a>
+        <a href="https://www.instagram.com/gunsnroses/"><img src="image/instagram.png"></a>
+
+        <p>Copyright © 2023 Guns N' Roses Help Newsletter Terms of Use Privacy Policy Do Not Sell or Share My Personal
+            Information</p>
+        <p>Guns N' Roses is managed by Team Brazil </p>
+        <p>Armand Butts Crump III and Tommy Mark, forever in our hearts. </p>
+    </div>
+
+    <!--------toggle menu---->
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

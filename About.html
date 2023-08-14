@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width intial-scale=1.0">
+  <title> Guns n' Roses - Home</title>
+  <link rel="stylesheet" href="styles/style(about).css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="image/Untitled-1.png" width="125px">
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <li> <a href="index.html"> HOME </a></li>
+            <li> <a href="News.html"> NEWS </a></li>
+            <li> <a href="Gallery.html"> GALLERY</a></li>
+            <li> <a href="About.html"> ABOUT</a></li>
+            <li> <a href="Store.html"> STORE </a></li>
+            <li> <a href="Tour.html"> TOUR</a></li>
+            <li> <a href="Account.html"> LOGIN </a></li>
+          </ul>
+        </nav>
+        <a href="Cart.html"><img src="image/shopping-cart.png" width="30px"></a>
+        <img src="image/menu-btn.png" class="menu-btn" 
+        onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+         </div>
+        <div class="row">
+          <div class="col-2">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <article>
+     <p style="margin-right: 9%; margin-left: 9%; margin-top: 45px;" >
+        Guns N' Roses formed in 1985 and released their debut album Appetite for Destruction in 1987. The album was an instant hit 
+        and made Guns N' Roses a household name in the world music industry. With its hard rock and heavy metal genres, Appetite 
+        for Destruction sold 28 million copies worldwide, making it the best-selling debut album of all time in the United States.
+     <br>
+     <p style="margin-right: 9%; margin-left: 9%; margin-top: 5px;">
+        Guns N' Roses also became one of the few bands to achieve immediate international success on their debut album. Three 
+        major singles were released from the album, namely Welcome to the Jungle, Paradise City and also Sweet Child O'Mine, which 
+        became the only Guns N' Roses song to top the Billboard Hot 100 chart. The song is also considered to be one of the best 
+        rock songs of all time that is most popular until now.
+    </p><br>
+    <p style="margin-right: 9%; margin-left: 9%; margin-top: 5px;">
+        After that, Guns N' Roses immediately released a second album entitled G N' R Lies in 1988. Guns N' Roses' success 
+        increased after releasing a double-album in 1991, entitled Use Your Illusion I and Use Your Illusion II. The two albums were 
+        released in the same year and in their debut week occupied positions 2 and 1 of the Billboard 200. Some of Guns N' Roses' 
+        best songs are found on these two albums, such as November Rain and Don't Cry.
+    </p><br>
+    <p style="margin-right: 9%; margin-left: 9%; margin-top: 5px;">
+        Guns N' Roses then released their 5th album, The Spaghetti Incident in 1993. However, this album did not meet expectations 
+        and marked the heyday of Guns N' Roses which lasted for more than 7 years. After that, one by one Guns N' Roses personnel 
+        decided to resign due to lack of clarity regarding the next Guns N' Roses project and several other reasons.
+    </p><br>
+    <p style="margin-right: 9%; margin-left: 9%; margin-top: 5px;">
+        Guns N' Roses' last album Chinese Democracy was released in 2008, with several new personnel, even though it caused a lot
+        of controversy. After that there were several changes in the formation of Guns N' Roses, including the rejoining of old 
+        members of the band.
+    </p>
+    </article>
+  </div>
+  
+
+ 
+
+    <!--------footer----->
+    <div class="footer">
+      <hr><br>
+      <a href = "https://twitter.com/gunsnroses?s=20" ><img src ="image/twitter.png"></a>
+      <a href = "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC?si=3hVQ4pa0QAWKvihTfYS7HQ" ><img src ="image/spotify.png"></a>
+      <a href = "https://www.youtube.com/c/gunsnroses" ><img src ="image/youtube(1).png"></a>
+      <a href = "https://www.instagram.com/gunsnroses/" ><img src ="image/instagram.png"></a>
+      
+      <p>Copyright © 2023 Guns N' Roses Help  Newsletter  Terms of Use  Privacy Policy  Do Not Sell or Share My Personal Information</p>
+      <p>Guns N' Roses is managed by Team Brazil </p>
+      <p>Armand Butts Crump III and Tommy Mark, forever in our hearts. </p>
+    </div>
+
+<!--------toggle menu---->
+<script>
+  var menuItems = document.getElementById("menuItems");
+
+  menuItems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(menuItems.style.maxHeight == "0px")
+    {
+      menuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      menuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+
+</html>

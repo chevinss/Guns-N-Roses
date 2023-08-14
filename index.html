@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width intial-scale=1.0">
+  <title> Guns n' Roses - Home</title>
+  <link rel="stylesheet" href="styles/style(index).css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="image/Untitled-1.png" width="125px">
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <li> <a href="index.html"> HOME </a></li>
+            <li> <a href="News.html"> NEWS </a></li>
+            <li> <a href="Gallery.html"> GALLERY</a></li>
+            <li> <a href="About.html"> ABOUT</a></li>
+            <li> <a href="Store.html"> STORE </a></li>
+            <li> <a href="Tour.html"> TOUR</a></li>
+            <li> <a href="Account.html"> LOGIN </a></li>
+          </ul>
+        </nav>
+        <a href="Cart.html"><img src="image/shopping-cart.png" width="30px"></a>
+        <img src="image/menu-btn.png" class="menu-btn" 
+        onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>THE LEGEND <br>NEVER DIE</h1>
+          <a href="About.html" class="btn"> About us</a>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <img src="image/pngwing.com.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------photo------>
+  <div class="photo">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="image/gallery.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery2.jpg">
+        </div>
+        <div class="col-3">
+          <img src="image/gallery3.jpg">
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!---product----->
+
+    <div class="small-container">
+      <h2 class="title">Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="image/itemImage.png">
+          <h4>Appetite For Destruction Cross and Chain T-Shirt</h4>
+          <p>$35.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/itemImage2.png">
+          <h4>Appetite For Destruction Hat</h4>
+          <p>$35.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/itemImage3.png">
+          <h4>Cross Logo Black Cooler Tote</h4>
+          <p>$75.00</p>
+        </div>
+        <div class="col-4">
+          <img src="image/itemImage4.png">
+          <h4>Skeleton Cross Zippo Lighter</h4>
+          <p>$40.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!---news----->
+
+    <div class="small-container">
+      <h2 class="title">News</h2>
+      <div class="row">
+        <div class="col-5">
+          <img src="image/newImage.jpg">
+          <h4>New Guns N' Roses Shows in Pittsburgh & Seattle</h4>
+          <p>May 30, 2023 </p>
+        </div>
+        <div class="col-5">
+          <img src="image/newImage2.jpg">
+          <h4>GUNS N' ROSES Tour Headed to Atlanta, GA for Music Midtown</h4>
+          <p>May 16, 2023 </p>
+        </div>
+        <div class="col-5">
+          <img src="image/newImage3.jpg">
+          <h4>GUNS N' ROSES to Headline Power Trip in Indio, CA!</h4>
+          <p>Mar 30, 2023 </p>
+        </div>
+      </div>
+    </div>
+
+    <!---spotify----->
+    <div class="music">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/artist/3qm84nBOXUEQ2vnTfUTTFC?utm_source=generator" width="95%"
+              height="152" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy" class="spotify"></iframe>
+          </div>
+          <div class="col-2">
+            <h1> You Can Hear This On Spotify!!!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------footer----->
+    <div class="footer">
+      <hr><br>
+      <a href = "https://twitter.com/gunsnroses?s=20" ><img src ="image/twitter.png"></a>
+      <a href = "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC?si=3hVQ4pa0QAWKvihTfYS7HQ" ><img src ="image/spotify.png"></a>
+      <a href = "https://www.youtube.com/c/gunsnroses" ><img src ="image/youtube(1).png"></a>
+      <a href = "https://www.instagram.com/gunsnroses/" ><img src ="image/instagram.png"></a>
+      
+      <p>Copyright © 2023 Guns N' Roses Help  Newsletter  Terms of Use  Privacy Policy  Do Not Sell or Share My Personal Information</p>
+      <p>Guns N' Roses is managed by Team Brazil </p>
+      <p>Armand Butts Crump III and Tommy Mark, forever in our hearts. </p>
+    </div>
+
+<!--------toggle menu---->
+<script>
+  var menuItems = document.getElementById("menuItems");
+
+  menuItems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(menuItems.style.maxHeight == "0px")
+    {
+      menuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      menuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+
+</html>
